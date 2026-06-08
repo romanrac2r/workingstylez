@@ -8,7 +8,7 @@ const client = new Client()
     .setProject('6a26d7780019fe2ffcc5'); // 
 
 const databases = new Databases(client);
-const DB_ID = 'https://fra.cloud.appwrite.io/v1'; 
+const DB_ID = '6a26d789000c25937cf5'; 
 const COLL_ID = 'pracovn_styly';
 
 const CATEGORIES = {
