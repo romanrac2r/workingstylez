@@ -9,11 +9,11 @@ import {
 // --- KONFIGURÁCIA APPWRITE ---
 const client = new Client()
     .setEndpoint('https://cloud.appwrite.io/v1')
-    .setProject('TU_VLOZ_PROJECT_ID'); 
+    .setProject('6a26d7780019fe2ffcc5'); 
 
 const databases = new Databases(client);
-const DB_ID = 'TU_VLOZ_DATABASE_ID'; 
-const COLL_ID = 'TU_VLOZ_COLLECTION_ID'; 
+const DB_ID = '6a26d789000c25937cf5';  
+const COLL_ID = 'pracovn_styly';
 
 const CATEGORIES = {
   HurryUp: { 
